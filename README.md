@@ -34,3 +34,6 @@ It is crucial to understand that this is a **tech demo** and not a scientificall
 * **Recharts**: For creating interactive charts.
 * **Lucide React**: For the icon suite.
 * **Anthropic API (Claude)**: Used as the engine for data and analysis simulation.
+
+
+### ✨ This is a demo link: https://claude.ai/public/artifacts/ff7add08-dab7-4d87-ac6b-4d85a777449a
