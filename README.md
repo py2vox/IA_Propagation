@@ -37,3 +37,11 @@ It is crucial to understand that this is a **tech demo** and not a scientificall
 
 
 ### ✨ This is a demo link: https://claude.ai/public/artifacts/ff7add08-dab7-4d87-ac6b-4d85a777449a
+
+
+## 👤 About the Author
+
+This project was created by **Ricardo (PY2VOX)**, a passionate amateur radio operator and a seasoned IT professional.
+His journey in radio began in 2004 as PX2M8350 (White Bear station). He earned his Class B license (PY2VOX) in 2008 after passing the ANATEL exam and was promoted to Class A in 2010, keeping the same callsign.
+With over 30 years of experience in Information Technology, Ricardo brings a deep technical background to his hobby. He is a computer technician, holds a bachelor's degree in Information Systems, and has a specialization in IT Governance.
+This project represents his current exploration into the world of Artificial Intelligence (AI) and Machine Learning (ML), specifically applying these modern technologies to the fascinating field of radio wave propagation studies.
