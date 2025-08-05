@@ -1,36 +1,36 @@
-# 🤖 Analisador de Propagação HF com IA
+# 🤖 AI-Powered HF Propagation Analyzer
 
-## 🚀 Sobre o Projeto
+## 🚀 About The Project
 
-Este repositório contém o código de um **protótipo avançado e demonstração tecnológica** de um analisador de propagação de rádio de Alta Frequência (HF). A ferramenta foi projetada para simular e prever as condições de comunicação entre dois pontos geográficos, utilizando uma interface moderna e rica em dados.
+This repository contains the code for an **advanced prototype and tech demo** of a High-Frequency (HF) radio propagation analyzer. The tool is designed to simulate and predict communication conditions between two geographical points using a modern, data-rich interface.
 
-O grande diferencial deste projeto é o uso de um modelo de Inteligência Artificial (Claude da Anthropic) para **gerar dados e análises com aparência realista**, servindo como uma prova de conceito poderosa para uma futura ferramenta cientificamente precisa.
+The key differentiator of this project is its use of an Artificial Intelligence model (Anthropic's Claude) to **generate realistic-looking data and analysis**, serving as a powerful proof-of-concept for a future, scientifically accurate tool.
 
-### ✨ Funcionalidades Principais
+### ✨ Key Features
 
-* **Painel de Controle "Climático"**: Visualização de dados solares e ionosféricos simulados em tempo real.
-* **Análise Inteligente**: Recomendações de melhores horários, frequências e configurações de antena.
-* **Gráficos Interativos**: Previsões visuais de 24 horas, comparação de performance entre bandas e muito mais.
-* **Interface Moderna**: Design responsivo, modo escuro, notificações e presets salvos localmente.
-* **Prova de Conceito**: Demonstra a viabilidade de usar IA para interpretar dados complexos de propagação.
-
----
-
-## ⚠️ Status do Projeto: Protótipo
-
-É crucial entender que esta é uma **demonstração tecnológica** e não uma ferramenta cientificamente validada em seu estado atual.
-
-* **Dados Simulados:** A aplicação **não está conectada a fontes de dados científicos reais** (APIs da NOAA, NASA, etc.). Ela utiliza uma IA para gerar respostas realistas.
-* **Não Operacional Online:** Para que o projeto funcione como uma ferramenta real, as chamadas de API precisam ser substituídas por conexões a fontes de dados verídicas.
-* **Chaves de API:** O código-fonte contém chamadas diretas a uma API externa. Em um ambiente de produção, as chaves de API devem ser gerenciadas em um backend seguro e nunca expostas no lado do cliente.
+* **"Space Weather" Dashboard:** Real-time visualization of simulated solar and ionospheric data.
+* **Intelligent Analysis:** Recommends the best times, frequencies, and antenna configurations.
+* **Interactive Charts:** 24-hour visual forecasts, performance comparisons between bands, and more.
+* **Modern UI:** Responsive design, dark mode, notifications, and locally saved presets.
+* **Proof of Concept:** Demonstrates the viability of using AI to interpret complex propagation data.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## ⚠️ Project Status: Prototype
 
-* **React**: Biblioteca principal para a construção da interface.
-* **TypeScript**: Para um código mais robusto e seguro.
-* **Tailwind CSS**: Para estilização rápida e moderna.
-* **Recharts**: Para a criação dos gráficos interativos.
-* **Lucide React**: Para a suíte de ícones.
-* **Anthropic API (Claude)**: Utilizada como motor de simulação de dados e análises.
+It is crucial to understand that this is a **tech demo** and not a scientifically validated tool in its current state.
+
+* **Simulated Data:** The application is **not connected to real scientific data sources** (like APIs from NOAA, NASA, etc.). It uses an AI to generate realistic responses for demonstration purposes.
+* **Not Operational:** For the project to work as a real-world tool, the current API calls must be replaced with connections to live, verifiable data sources.
+* **API Key Management:** The source code contains direct calls to an external API. In a production environment, API keys must be managed securely on a backend and never exposed on the client side.
+
+---
+
+## 🛠️ Tech Stack
+
+* **React**: The core library for building the UI.
+* **TypeScript**: For robust and type-safe code.
+* **Tailwind CSS**: For modern and rapid styling.
+* **Recharts**: For creating interactive charts.
+* **Lucide React**: For the icon suite.
+* **Anthropic API (Claude)**: Used as the engine for data and analysis simulation.
