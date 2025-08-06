@@ -86,7 +86,7 @@ You need to have Node.js and npm installed on your machine.
 
 This project was created by **Ricardo (PY2VOX)**, a passionate amateur radio operator and a seasoned IT professional.
 
-His journey in radio began in 2004 as PX2M8350 (White Bear station). He earned his Class B license (PY2VOX) in 2008 after passing the ANATEL exam, and was promoted to Class A in 2010, keeping the same callsign.
+His journey in radio began in 2004 as PX2M8350 (White Bear station). He earned his Class B license (Papa Yankee Two Victor Oscar X-ray) in 2008 after passing the ANATEL exam, and was promoted to Class A in 2010, keeping the same callsign.
 
 With over 30 years of experience in Information Technology, Ricardo brings a deep technical background to his hobby. He is a computer technician, holds a bachelor's degree in Information Systems, and has a specialization in IT Governance.
 
