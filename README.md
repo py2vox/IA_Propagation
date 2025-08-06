@@ -1,4 +1,4 @@
-# 🤖 AI-Powered HF Propagation Analyzer
+# 🤖 AI-Based HF Propagation Analyzer and Simulator
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/project-prototype-orange.svg)
