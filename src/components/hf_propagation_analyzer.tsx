@@ -1298,11 +1298,17 @@ const HFPropagationAnalyzer = () => {
         {/* Footer */}
         <div className="text-center mt-8 text-gray-400 bg-white/5 rounded-lg p-6">
           <div className="flex items-center justify-center mb-2">
-            <Shield className="h-5 w-5 mr-2" />
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: any[];
+  label?: string | number;
+}
+
+const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
             <p className="font-semibold">Scientific Data Sources</p>
           </div>
           <p className="text-sm">
-            NOAA SWPC • NASA GSFC • UCAR COSMIC • ESA Swarm • GIRO Network • IGS TEC Maps
+        <p className="text-gray-300">{`Time: ${label || 'N/A'}`}</p>
           </p>
           <p className="text-xs mt-2 text-gray-500">
             Processed with ITU-R propagation algorithms • Auto-refresh enabled • JSON/CSV export
