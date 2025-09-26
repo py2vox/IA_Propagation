@@ -604,7 +604,13 @@ const HFPropagationAnalyzer = () => {
   };
 
   // Custom tooltip for enhanced charts
-  const CustomTooltip = ({ active, payload, label }) => {
+  interface CustomTooltipProps {
+    active?: boolean;
+    payload?: any[];
+    label?: string | number;
+  }
+
+  const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
     if (active && payload && payload.length) {
       return (
         <div className="bg-gray-900 p-3 rounded-lg border border-gray-700 shadow-lg">
