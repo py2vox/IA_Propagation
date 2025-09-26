@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "lib": ["dom", "dom.iterable", "es2022"],
+    "allowJs": true,
+    "strict": true
+  },
+  "imports": {
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "recharts": "https://esm.sh/recharts@2.8.0",
+    "lucide-react": "https://esm.sh/lucide-react@0.263.1",
+    "@/": "./"
+  },
+  "tasks": {
+    "dev": "deno run --allow-net --allow-read --allow-env --watch server.ts",
+    "start": "deno run --allow-net --allow-read --allow-env server.ts",
+    "lint": "deno lint --ignore=node_modules",
+    "check": "deno check **/*.{ts,tsx}",
+    "fmt": "deno fmt --ignore=node_modules",
+    "build": "deno run --allow-read --allow-write --allow-net build.ts",
+    "test": "deno test --allow-net --allow-read"
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "include": ["ban-untagged-todo"],
+      "exclude": ["no-unused-vars"]
+    },
+    "exclude": ["node_modules/", "dist/", "build/"]
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 100,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": true,
+    "proseWrap": "preserve",
+    "exclude": ["node_modules/", "dist/", "build/"]
+  },
+  "exclude": [
+    "node_modules/",
+    "dist/",
+    "build/"
+  ]
+}
