@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { Search, Radio, Satellite, Sun, Globe, Activity, MapPin, Calendar, TrendingUp, AlertTriangle, CheckCircle, Clock, Zap, BarChart3, LineChart, PieChart, Settings, Download, RefreshCw, Moon, Shield, Waves, AlertCircle } from 'lucide-react';
+import { Search, Radio, Satellite, Sun, Globe, Activity, MapPin, Calendar, TrendingUp, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Clock, Zap, BarChart3, LineChart, PieChart, Settings, Download, RefreshCw, Moon, Shield, Waves, CircleAlert as AlertCircle } from 'lucide-react';
 import { LineChart as RechartsLineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area, BarChart, Bar, RadialBarChart, RadialBar, PieChart as RechartsPieChart, Cell } from 'recharts';
 
 const HFPropagationAnalyzer = () => {
@@ -433,7 +433,11 @@ const HFPropagationAnalyzer = () => {
 
     // Propagation modes data
     const propagationModes = [
-      { name: 'Ground Wave', value: analysis.distance < 500 ? 70 : 20, color: COLORS.primary[0] },
+      { name: 'Ground Wave', value:
+      }
+    ]
+  }
+} analysis.distance < 500 ? 70 : 20, color: COLORS.primary[0] },
       { name: 'Sky Wave', value: analysis.distance > 300 ? 80 : 30, color: COLORS.success[0] },
       { name: 'Scatter', value: 15, color: COLORS.warning[0] },
       { name: 'Gray Line', value: analysis.grayLineEnhancement ? 25 : 5, color: COLORS.purple[0] }
