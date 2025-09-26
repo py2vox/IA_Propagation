@@ -433,11 +433,8 @@ const HFPropagationAnalyzer = () => {
 
     // Propagation modes data
     const propagationModes = [
-      { name: 'Ground Wave', value:
-      }
+      { name: 'Ground Wave', value: analysis.distance < 500 ? 70 : 20, color: COLORS.primary[0] },
     ]
-  }
-} analysis.distance < 500 ? 70 : 20, color: COLORS.primary[0] },
       { name: 'Sky Wave', value: analysis.distance > 300 ? 80 : 30, color: COLORS.success[0] },
       { name: 'Scatter', value: 15, color: COLORS.warning[0] },
       { name: 'Gray Line', value: analysis.grayLineEnhancement ? 25 : 5, color: COLORS.purple[0] }
