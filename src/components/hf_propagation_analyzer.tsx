@@ -434,7 +434,6 @@ const HFPropagationAnalyzer = () => {
     // Propagation modes data
     const propagationModes = [
       { name: 'Ground Wave', value: analysis.distance < 500 ? 70 : 20, color: COLORS.primary[0] },
-    ]
       { name: 'Sky Wave', value: analysis.distance > 300 ? 80 : 30, color: COLORS.success[0] },
       { name: 'Scatter', value: 15, color: COLORS.warning[0] },
       { name: 'Gray Line', value: analysis.grayLineEnhancement ? 25 : 5, color: COLORS.purple[0] }
@@ -1305,17 +1304,11 @@ const HFPropagationAnalyzer = () => {
         {/* Footer */}
         <div className="text-center mt-8 text-gray-400 bg-white/5 rounded-lg p-6">
           <div className="flex items-center justify-center mb-2">
-interface CustomTooltipProps {
-  active?: boolean;
-  payload?: any[];
-  label?: string | number;
-}
-
-const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
+            <Shield className="h-5 w-5 mr-2" />
             <p className="font-semibold">Scientific Data Sources</p>
           </div>
           <p className="text-sm">
-        <p className="text-gray-300">{`Time: ${label || 'N/A'}`}</p>
+            Real-time solar data • NOAA ionospheric models • ITU-R propagation algorithms
           </p>
           <p className="text-xs mt-2 text-gray-500">
             Processed with ITU-R propagation algorithms • Auto-refresh enabled • JSON/CSV export
