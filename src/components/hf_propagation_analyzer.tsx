@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Search, Radio, Satellite, Sun, Globe, Activity, MapPin, Calendar, TrendingUp, TriangleAlert as AlertTriangle, CircleCheck as CheckCircle, Clock, Zap, BarChart3, LineChart, PieChart, Settings, Download, RefreshCw, Moon, Shield, Waves, CircleAlert as AlertCircle } from 'lucide-react';
-import { LineChart as RechartsLineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area, BarChart, Bar, RadialBarChart, RadialBar, PieChart as RechartsPieChart, Cell } from 'recharts';
+import { LineChart as RechartsLineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area, BarChart, Bar, RadialBarChart, RadialBar, PieChart as RechartsPieChart, Pie, Cell } from 'recharts';
 
 const HFPropagationAnalyzer = () => {
   const [fromLocation, setFromLocation] = useState('');
